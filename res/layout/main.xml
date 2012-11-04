@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<Chronometer
+        android:id="@+id/Crono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:shadowColor="#6FFF00"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textColor="#6FFF00"
+        android:textSize="90dp" />
+
+    <TextView
+        android:id="@+id/MiliSeg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:shadowColor="#6FFF00"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/IniMil"
+        android:textColor="#6FFF00"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/BtnIniciar"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Inicio"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/BtnDetener"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Detener"
+        android:textSize="30dp" />
+
+	<Button
+        android:id="@+id/BtnReiniciar"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Reiniciar"
+        android:textSize="30dp" />
+
+</LinearLayout>

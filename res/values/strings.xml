@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Cronómenso</string>
+    <string name="Titulo">Cronómenso</string>
+    <string name="Inicio">¡Iniciar!</string>
+    <string name="Detener">Detener</string>
+    <string name="Reiniciar">Reiniciar</string>
+    <string name="IniMil">0000</string>
+    
+    </resources>
