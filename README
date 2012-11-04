@@ -1,0 +1,5 @@
+Cronomenso v1.0
+* Primer proyecto en Android 
+* Cronómetro que muestra Segundos y Milisegundos.
+* No permite bloquear el dispositivo mientras la aplicación este activa.
+* Android 2.3 SDK 10
